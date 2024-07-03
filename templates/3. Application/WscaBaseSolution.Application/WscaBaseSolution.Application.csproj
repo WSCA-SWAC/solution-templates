@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\1. Domain\WscaBaseSolution.Domain\WscaBaseSolution.Domain.csproj" />
+    <ProjectReference Include="..\..\2. Infrastructure\WscaBaseSolution.Infrastructure\WscaBaseSolution.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

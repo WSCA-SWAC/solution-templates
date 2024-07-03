@@ -1,0 +1,26 @@
+### Get all orders
+GET http://localhost:5096/api/order
+Accept: application/json
+
+### Get a specific order by ID (replace {{orderId}} with an actual ID)
+GET http://localhost:5096/api/order/{{orderId}}
+Accept: application/json
+
+### Create a new order
+POST http://localhost:5096/api/order
+Content-Type: application/json
+
+{
+  "customer": "Jane Doe"
+}
+
+### Add an item to an order (replace {{orderId}} with an actual order ID)
+POST http://localhost:5096/api/order/{{orderId}}/items
+Content-Type: application/json
+
+{
+  "productId": 1,
+  "productName": "WscaBaseSolution Product",
+  "unitPrice": 19.99,
+  "quantity": 2
+}
