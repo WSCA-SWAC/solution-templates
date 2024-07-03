@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "WSAC-SWAC",
+  "classifications": ["Web", "API", "React"],
+  "identity": "Wsac.SolutionTemplate",
+  "name": "WSAC Base Solution Template",
+  "shortName": "wsac_base_solution",
+  "sourceName": "APPLICATION_NAME",
+  "description": "This project demonstrates a sample application using a .NET Core backend and a React frontend. The backend follows Domain-Driven Design (DDD) principles, uses the MediatR library for handling domain events, and Entity Framework Core for data persistence. The frontend is built with React and styled using Bootstrap. This setup provides a robust foundation for building scalable, maintainable, and testable applications.",
+  "tags": {
+    "language": "C#",
+    "type": "solution"
+  },
+  "symbols": {
+    "ProjectName": {
+      "type": "parameter",
+      "defaultValue": "APPLICATION_NAME",
+      "replaces": "APPLICATION_NAME",
+      "description": "The name for the new project"
+    }
+  },
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": [ ".template.config/**", "**/[Bb]in/**", "**/[Oo]bj/**" ]
+        }
+      ]
+    }
+  ]
+}
