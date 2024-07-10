@@ -1,4 +1,11 @@
-# Solution templates
+# *** Update 2024-07 ***
+A much better project than this can be found at https://github.com/jasontaylordev/CleanArchitecture
+
+It takes care of concerns such as CQRS, Clean Architecture, includes all kinds of testing (bdd with Specflow). Users should familiarize themselves with this project instead of using this simple one. It shares some of the ame concepts but goes into much more detail.
+
+---
+
+# Solution templates (deprecated, kept for history)
 
 This repository hosts solution templates that can be used to start new projects.
 
